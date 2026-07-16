@@ -36,17 +36,17 @@ The dataset contains **10,000 records** with the following features:
 ### Distribution & Outliers
 Boxplots were used to inspect the spread and outliers of each numerical feature.
 
-![Boxplots of numerical features](images/boxplots.jpg)
+![Boxplots of numerical features](boxplots.jpg)
 
 ### Correlation Analysis
 A correlation heatmap was generated to understand relationships between features and the target variable.
 
-![Correlation heatmap](images/correlation_heatmap.jpg)
+![Correlation heatmap](correlation_heatmap.jpg)
 
 ### Rotational Speed vs Torque
 A scatter plot highlights how failures cluster at the extremes of rotational speed and torque.
 
-![Rotational speed vs torque scatter plot](images/scatter_plot.jpg)
+![Rotational speed vs torque scatter plot](scatter_plot.jpg)
 
 ## 🤖 Modeling
 
@@ -56,7 +56,7 @@ Two classification models were trained and compared:
 
 ### Results — Confusion Matrices
 
-![Confusion matrices for Decision Tree and Random Forest](images/confusion_matrices.jpg)
+![Confusion matrices for Decision Tree and Random Forest](confusion_matrices.jpg)
 
 | Model | True Negatives | False Positives | False Negatives | True Positives |
 |---|---|---|---|---|
