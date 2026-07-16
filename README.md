@@ -205,3 +205,6 @@ The notebook outputs a comparison table of Accuracy, Precision, Recall, F1-Score
 ## Author
 
 Developed as part of a graduation capstone project at the National Telecommunication Institute (NTI).
+
+## ​Dataset Attribution:
+The dataset used in this project was created by Prof. Dr. Stephan Matzka (HTW Berlin) and is hosted on Kaggle. It is licensed under CC BY-NC-SA 4.0.
