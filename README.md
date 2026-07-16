@@ -58,7 +58,7 @@ Both models were evaluated using 5-fold Stratified Cross-Validation on the train
 ## 🔍 Exploratory Data Analysis
 
 ### Histogram Torque
-![Histogram Torque](Histogram Torque.jpeg)
+![Histogram Torque](HistogramTorque.jpeg)
 
 ### Distribution & Outliers
 Boxplots were used to inspect the spread and outliers of each numerical feature.
