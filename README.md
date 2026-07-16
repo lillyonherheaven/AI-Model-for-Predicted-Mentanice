@@ -57,9 +57,6 @@ Random Forest Classifier (300 estimators, max depth 6, balanced class weights)
 Both models were evaluated using 5-fold Stratified Cross-Validation on the training set to detect overfitting before touching the test set.
 ## 🔍 Exploratory Data Analysis
 
-### Histogram Torque
-![Histogram Torque](HistogramTorque.jpg)
-
 ### Distribution & Outliers
 Boxplots were used to inspect the spread and outliers of each numerical feature.
 
