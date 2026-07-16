@@ -205,6 +205,11 @@ The notebook outputs a comparison table of Accuracy, Precision, Recall, F1-Score
 ## Author
 
 Developed as part of a graduation capstone project at the National Telecommunication Institute (NTI).
+ ## License & Attribution
 
-## ​Dataset Attribution:
-The dataset used in this project was created by Prof. Dr. Stephan Matzka (HTW Berlin) and is hosted on Kaggle. It is licensed under CC BY-NC-SA 4.0.
+This project, including the code and the dataset, is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** License.
+
+* **Dataset Source:** [Kaggle](https://www.kaggle.com/datasets/stephanmatzka/predictive-maintenance-dataset-ai4i-2020) 
+* **Dataset Creator:** Prof. Dr. Stephan Matzka (HTW Berlin)
+
+You are free to share and adapt this material, provided that you give appropriate credit, do not use it for commercial purposes, and distribute your contributions under the same license.
