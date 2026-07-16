@@ -31,6 +31,23 @@ The dataset contains **10,000 records** with the following features:
 | Machine failure | Target label (0 = no failure, 1 = failure) |
 | TWF, HDF, PWF, OSF, RNF | Individual failure mode flags |
 
+🧪 Methodology
+1. Data Exploration
+Structure, summary statistics, and missing value checks
+Duplicate detection
+Outlier visualization via boxplots
+Distribution analysis of rotational speed and torque
+Correlation heatmap and pairplots across numerical features
+Class distribution analysis for machine failure
+2. Preprocessing
+Dropped non-predictive identifier columns (UDI, Product ID)
+One-hot encoded the categorical Type feature
+Removed failure-mode flag columns to prevent data leakage
+Stratified train/test split (80/20) to preserve class balance
+IQR-based outlier capping, fitted on training data and applied to both splits
+Feature scaling with StandardScaler
+Feature selection using SelectKBest with mutual information (top 7 features)
+
 ## 🔍 Exploratory Data Analysis
 
 ### Distribution & Outliers
