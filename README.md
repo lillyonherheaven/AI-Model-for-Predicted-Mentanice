@@ -32,6 +32,7 @@ The dataset contains **10,000 records** with the following features:
 | TWF, HDF, PWF, OSF, RNF | Individual failure mode flags |
 
 🧪 Methodology
+
 1. Data Exploration
 Structure, summary statistics, and missing value checks
 Duplicate detection
@@ -39,6 +40,7 @@ Outlier visualization via boxplots
 Distribution analysis of rotational speed and torque
 Correlation heatmap and pairplots across numerical features
 Class distribution analysis for machine failure
+
 2. Preprocessing
 Dropped non-predictive identifier columns (UDI, Product ID)
 One-hot encoded the categorical Type feature
@@ -48,6 +50,11 @@ IQR-based outlier capping, fitted on training data and applied to both splits
 Feature scaling with StandardScaler
 Feature selection using SelectKBest with mutual information (top 7 features)
 
+3. Model Training
+Two classification models were trained and compared:
+Decision Tree Classifier (max depth 6, balanced class weights)
+Random Forest Classifier (300 estimators, max depth 6, balanced class weights)
+Both models were evaluated using 5-fold Stratified Cross-Validation on the training set to detect overfitting before touching the test set.
 ## 🔍 Exploratory Data Analysis
 
 ### Distribution & Outliers
