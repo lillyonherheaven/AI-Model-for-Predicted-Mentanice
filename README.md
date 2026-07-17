@@ -55,6 +55,25 @@ Two classification models were trained and compared:
 Decision Tree Classifier (max depth 6, balanced class weights)
 Random Forest Classifier (300 estimators, max depth 6, balanced class weights)
 Both models were evaluated using 5-fold Stratified Cross-Validation on the training set to detect overfitting before touching the test set.
+ 
+4. Evaluation
+Models were assessed on the held-out test set using:
+Accuracy
+Precision
+Recall
+
+F1-Score
+ROC-AUC
+Confusion Matrix
+Classification Report
+Recall and F1-Score are prioritized as the key metrics, since missing an actual machine failure (false negative) is more costly than a false alarm.
+
+5. Interpretation
+Side-by-side confusion matrix visualizations for both models
+Random Forest feature importance ranking
+Train vs. test accuracy comparison to check generalization
+Sample-level prediction review (actual vs. predicted outcomes) 
+
 ## 🔍 Exploratory Data Analysis
 
 ### Distribution & Outliers
