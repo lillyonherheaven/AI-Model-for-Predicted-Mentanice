@@ -14,7 +14,7 @@ The workflow covers:
 
 ## Dataset
 
-**Source:** [AI4I 2020 Predictive Maintenance Dataset](https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset)
+**Source:** [AI4I 2020 Predictive Maintenance Dataset](https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset) 
 
 The dataset contains **10,000 records** with the following features:
 
