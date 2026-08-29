@@ -31,6 +31,7 @@ The dataset contains **10,000 records** with the following features:
 | Machine failure | Target label (0 = no failure, 1 = failure) |
 | TWF, HDF, PWF, OSF, RNF | Individual failure mode flags |
 
+
 🧪 Methodology
 
 1. Data Exploration
