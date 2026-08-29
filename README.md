@@ -32,7 +32,6 @@ The dataset contains **10,000 records** with the following features:
 | TWF, HDF, PWF, OSF, RNF | Individual failure mode flags |
 
 
-🧪 Methodology
 ## Methodology
 
 1. Data Exploration
