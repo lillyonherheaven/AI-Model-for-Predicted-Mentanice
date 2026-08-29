@@ -2,7 +2,7 @@
 
 An end-to-end machine learning project that predicts machine failures before they happen, using sensor data from industrial equipment. Built on the **AI4I 2020 Predictive Maintenance Dataset**.
 
-## 📌 Project Overview
+## Project Overview
 
 Unplanned equipment downtime is costly. This project uses machine sensor readings — temperature, rotational speed, torque, and tool wear — to classify whether a machine is likely to fail, enabling proactive maintenance instead of reactive repairs.
 
@@ -12,9 +12,9 @@ The workflow covers:
 - Training and comparing classification models (Decision Tree vs. Random Forest)
 - Evaluating model performance with confusion matrices
 
-## 📊 Dataset
+## Dataset
 
-**Source:** [AI4I 2020 Predictive Maintenance Dataset](https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset)
+**Source:** [AI4I 2020 Predictive Maintenance Dataset](https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset) 
 
 The dataset contains **10,000 records** with the following features:
 
@@ -33,6 +33,7 @@ The dataset contains **10,000 records** with the following features:
 
 
 🧪 Methodology
+## Methodology
 
 1. Data Exploration
 Structure, summary statistics, and missing value checks
@@ -75,7 +76,7 @@ Random Forest feature importance ranking
 Train vs. test accuracy comparison to check generalization
 Sample-level prediction review (actual vs. predicted outcomes) 
 
-## 🔍 Exploratory Data Analysis
+##  Exploratory Data Analysis
 
 ### Distribution & Outliers
 Boxplots were used to inspect the spread and outliers of each numerical feature.
@@ -92,7 +93,7 @@ A scatter plot highlights how failures cluster at the extremes of rotational spe
 
 ![Rotational speed vs torque scatter plot](scatter_plot.jpg)
 
-## 🤖 Modeling
+##  Modeling
 
 Two classification models were trained and compared:
 - **Decision Tree Classifier**
@@ -109,14 +110,14 @@ Two classification models were trained and compared:
 
 Both models perform similarly on this dataset, with Random Forest showing a marginal edge in correctly identifying failures (true positives).
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python**
 - **Pandas** – data manipulation
 - **Matplotlib / Seaborn** – visualization
 - **Scikit-learn** – Decision Tree & Random Forest models
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ├── ai4i2020.csv                 # Dataset
@@ -129,7 +130,7 @@ Both models perform similarly on this dataset, with Random Forest showing a marg
 └── README.md
 ```
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone this repository
 2. Install dependencies:
@@ -141,7 +142,7 @@ Both models perform similarly on this dataset, with Random Forest showing a marg
    jupyter notebook notebook.ipynb
    ```
 
-## 📈 Future Improvements
+##  Future Improvements
 
 - Address class imbalance (failures are rare in the dataset)
 - Try additional models (XGBoost, Gradient Boosting)
